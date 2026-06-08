@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h1>Student Counter</h1>
+    <h1>Student Counter</h1>
 
       <h2>Total Students: {count}</h2>
 

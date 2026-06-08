@@ -25,3 +25,16 @@ jobs:
 
       - name: Build React App
         run: npm run build
+
+      - name: Run Tests
+        run: npm test -- --watchAll=false
+
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+         name: react-build
+         path: build
+
+      
+
+        
